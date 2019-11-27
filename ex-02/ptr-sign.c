@@ -1,7 +1,7 @@
 #include "../mini-assert/mini-assert.h"
 
 void change_sign(int *value) {
-  // TODO: Write a program that changes the sign of the value passed.
+  *value = - *value;
 }
 
 

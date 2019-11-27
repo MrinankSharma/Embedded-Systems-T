@@ -9,7 +9,7 @@ int output2(unsigned int value, const char *str) {
 }
 
 // TODO: Replace "typeof(output1) *o1" and "typeof(output2) *o2" with the respective function types.
-void execute_output(typeof(output1) *o1, typeof(output2) *o2) {
+void execute_output(void (*o1)(const char *str), int (*o2)(unsigned int value, const char *str) ) {
   o1("Hello World!");
   o2(999, "Goodbye!");
 }

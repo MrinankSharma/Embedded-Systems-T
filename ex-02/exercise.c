@@ -14,7 +14,7 @@ int main(void) {
   run_ptr_sign_exercise();
   run_malloc_free_exercise();
   // Warning: This method will likely crash your application. Fix all errors and remove memory leaks.
-  // run_illegal_memory_exercise();
+  run_illegal_memory_exercise();
   run_function_pointers_exercise();
   run_callbacks_exercise();
   run_data_structures_exercise();
